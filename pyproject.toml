@@ -1,0 +1,17 @@
+[project]
+name = "traffic-surveillance"
+version = "1.0.0"
+requires-python = ">=3.13"
+dependencies = [
+    "ultralytics>=8.3.0",
+    "opencv-python-headless>=4.10.0",
+    "numpy>=1.26.4",
+    "torch>=2.6.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "B", "SIM"]

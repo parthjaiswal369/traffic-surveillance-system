@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Models
+*.pt
+*.onnx
+*.engine
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated results
+*.log
+vehicle_counts.json
+vehicle_counts.csv
+traffic_results.zip
+
+# Notebook and operating system
+.ipynb_checkpoints/
+.DS_Store
